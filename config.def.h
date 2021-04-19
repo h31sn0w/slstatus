@@ -68,6 +68,6 @@ static const struct arg args[] = {
 	{ uptime,   "[up %s]",        NULL   }, 
 	{ cpu_freq, "[cpu %s]",       NULL   },
 	{ ram_used, "[mem %s] ",      NULL   },
-	{ vol_perc, "[vol %s]",    /dev/mixer },
+	{ vol_perc, "[vol %s]",    "/dev/mixer" },
 	{ datetime, "[%s]",           "%F %T" },
 };
